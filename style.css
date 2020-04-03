@@ -1,0 +1,61 @@
+/* Variable */
+:root {
+  --primary: #ffc636;
+  --secondary: #0a0b5b;
+}
+/* Reset browser style*/
+body,
+p,
+a,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+/* Base Styles */
+body {
+  background: var(--secondary);
+  overflow-x: hidden;
+}
+.button {
+  background: none;
+  border: 2px solid var(--primary);
+  border-radius: 20px;
+  color: var(--primary);
+  padding: 6px 12px;
+  text-transform: uppercase;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.6);
+  display: inline-block;
+}
+.button:hover {
+  color: #222;
+  background: var(--primary);
+}
+input,
+textarea {
+  background: rgba(255, 255, 255, 0.05);
+  color: #f2f2f2;
+  padding: 10px 16px;
+  border: 2px solid #9893d8;
+  border-radius: 20px;
+  outline: none;
+}
+/* Fonts */
+
+/* Mobile Styles */
+
+/* Small tablet styles */
+@media screen and (min-width: 62  0px) {
+}
+
+/* Large tablets & laptop styles*/
+@media screen and (min-width: 690px) {
+}
+
+/*Desktop styles*/
+@media screen and (min-width: 1200px) {
+}
